@@ -1,0 +1,80 @@
+.sidenav {
+    border-style: groove;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 100px;
+    background-color:paleturquoise;
+}
+
+.header {
+    border-style: solid;
+    width: 100%;
+    height: 100px;
+    top: -1.1ex;
+    left: -1ex;
+    position: relative;
+    z-index: 10;
+    background-color:teal;
+}
+
+.sidenav__title {
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 140%;
+}
+
+.header__title,
+.header__subtitle {
+    margin-left: 240px;
+    color: white;
+    font-size: 200%;
+    font-family:'New Century Schoolbook';
+}
+
+.header__title {
+    margin-top: 15px;
+}
+
+.header__subtitle {
+    font-size: 125%;
+}
+
+form{
+    font-family: sans-serif;
+}
+
+footer {
+    background: #aaa;
+    color:white;
+    margin-top: 80px;
+    width: 850px;
+}
+
+.main {
+    margin-left: 190px;
+    width: 800px;
+    font-family: Times;
+    text-align: justify;
+    color: #383528;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+    border-color: #96D4D4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+.plant {
+    width: 800px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    font-family: Palatino;
+    text-align: left;
+}
